@@ -1,0 +1,56 @@
+    QMainWindow {
+        background-image: url(resources/background_day.png)
+    }
+
+    QLabel{
+        font-family: Montserrat SemiBold;
+        font-size: 15px;
+        color: white;
+    }
+
+    QLabel#speed_value{
+        font-family: Montserrat ExtraBold;
+        font-size: 180px
+    }
+
+    QLabel#speed_label{
+        font-size: 55px
+    }
+
+    QLabel#rpm_value{
+        font-family: Montserrat ExtraBold;
+        font-size: 55px
+    }
+
+    QLabel#rpm_label{
+        font-size: 25px
+    }
+
+    QLabel#temp_value{
+        font-family: Montserrat ExtraBold;
+        font-size: 55px
+    }
+
+    QLabel#temp_label{
+        font-size: 25px
+    }
+
+    QLabel#clock{
+        font-size: 48px
+    }
+
+    QDialog{
+        background-color: rgba(50, 54, 57, 255)
+    }
+
+    QPushButton{
+        font-family: Montserrat ExtraBold;
+        font-size: 25px;
+        color: white;
+    }
+
+        QPushButton#save_button{
+        font-family: Montserrat ExtraBold;
+        font-size: 25px;
+        color: rgb( 80, 146, 201);
+    }
